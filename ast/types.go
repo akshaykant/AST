@@ -6,19 +6,19 @@ import "AST/tokens"
 	Define Node structure
 */
 type Node struct {
-	value interface{} //to accept different struct, making it generic
-	left  *Node
-	right *Node
+	Value interface{} //to accept different struct, making it generic
+	Left  *Node
+	Right *Node
 }
 
 type BooleanExpression struct {
-	value bool
+	Value bool
 }
 
 type IntegerExpression struct {
-	value int
+	Value int
 }
 
 type Operator struct {
-	value tokens.Token
+	Value tokens.Token
 }
