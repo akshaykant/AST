@@ -2,10 +2,8 @@ package visitor
 
 import (
 	"AST/ast"
-	_ "AST/ast"
 	"AST/checker"
 	"AST/evaluate"
-	_ "AST/evaluate"
 	"fmt"
 )
 
